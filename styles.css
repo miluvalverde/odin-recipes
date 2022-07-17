@@ -1,0 +1,31 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #e4c18d;
+}
+
+h1 {
+    color: #cc9543;
+    font-family: "Norse";
+    font-size: 5rem;
+    letter-spacing: 0.04em;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.links {
+    flex-direction: column;
+    display: flex;
+    display: inline-block;
+}
+
+.link {
+    color: black;
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 1.5rem;
+    margin: 10px;
+    text-decoration: none;
+}
