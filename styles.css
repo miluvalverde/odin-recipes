@@ -4,7 +4,12 @@
 
 body {
     background-color: #e4c18d;
+    font-family: 'Courier New', Courier, monospace;
 }
+
+
+
+/* ########## MAIN HTML ########## */
 
 h1 {
     color: #cc9543;
@@ -24,8 +29,15 @@ h1 {
 .link {
     color: black;
     display: flex;
-    font-family: 'Courier New', Courier, monospace;
     font-size: 1.5rem;
     margin: 10px;
     text-decoration: none;
+}
+
+
+
+/* ########## LASAGNA HTML ########## */
+.image {
+    height: 250px;
+    width: 500px;
 }
